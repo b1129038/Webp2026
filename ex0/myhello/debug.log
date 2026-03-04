@@ -1,0 +1,739 @@
+Watching for file changes with StatReloader
+Waiting for apps ready_event.
+Apps ready_event triggered. Sending autoreload_started signal.
+Watching dir C:\mypython3\hello_django\locale with glob **/*.mo.
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+(0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+File C:\mypython3\myenv01\Lib\site-packages\django\utils\translation\reloader.py first seen with mtime 1772609911.4985251
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\email\utils.py first seen with mtime 1772603059.253221
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\difflib.py first seen with mtime 1772603059.0800145
+File C:\mypython3\myenv01\Lib\site-packages\django\urls\utils.py first seen with mtime 1772609911.4585495
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\contenttypes\views.py first seen with mtime 1772609908.9784389
+File C:\mypython3\myenv01\Lib\site-packages\django\utils\hashable.py first seen with mtime 1772609911.478505
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\re\_compiler.py first seen with mtime 1772603059.4890308
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\deletion.py first seen with mtime 1772609911.3129325
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\graph.py first seen with mtime 1772603059.199967
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\urllib\parse.py first seen with mtime 1772603059.5510025
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\coroutines.py first seen with mtime 1772603059.1959674
+File C:\mypython3\myenv01\Lib\site-packages\django\__init__.py first seen with mtime 1772609907.5864847
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\admin\models.py first seen with mtime 1772609907.9751594
+File C:\mypython3\myenv01\Lib\site-packages\django\utils\translation\trans_real.py first seen with mtime 1772609911.5015254
+File C:\mypython3\myenv01\Lib\site-packages\django\db\migrations\recorder.py first seen with mtime 1772609911.3033836
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\contenttypes\checks.py first seen with mtime 1772609908.9754388
+File C:\mypython3\myenv01\Lib\site-packages\django\core\cache\backends\__init__.py first seen with mtime 1772609911.1553879
+File C:\mypython3\myenv01\Lib\site-packages\django\core\management\commands\runserver.py first seen with mtime 1772609911.2129416
+File C:\mypython3\myenv01\Lib\site-packages\sqlparse\filters\output.py first seen with mtime 1772609905.8365662
+File C:\mypython3\myenv01\Lib\site-packages\django\core\files\uploadhandler.py first seen with mtime 1772609911.1804144
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\urllib\response.py first seen with mtime 1772603059.5529993
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\sites\requests.py first seen with mtime 1772609910.808716
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\taskgroups.py first seen with mtime 1772603059.2104194
+File C:\mypython3\myenv01\Lib\site-packages\django\core\checks\urls.py first seen with mtime 1772609911.1684568
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\email\headerregistry.py first seen with mtime 1772603059.2482207
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\contextvars.py first seen with mtime 1772603059.0729773
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\messages\api.py first seen with mtime 1772609910.1787295
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\ctypes\_layout.py first seen with mtime 1772603059.2291305
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\messages\utils.py first seen with mtime 1772609910.1826825
+File C:\mypython3\myenv01\Lib\site-packages\django\core\mail\message.py first seen with mtime 1772609911.1924012
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\logging\__init__.py first seen with mtime 1772603059.458194
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\multiprocessing\__init__.py first seen with mtime 1772603059.477683
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\DLLs\_asyncio.pyd first seen with mtime 1772603058.9689126
+File C:\mypython3\myenv01\Lib\site-packages\django\db\migrations\serializer.py first seen with mtime 1772609911.3033836
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\DLLs\_decimal.pyd first seen with mtime 1772603058.9739316
+File C:\mypython3\myenv01\Lib\site-packages\django\core\cache\backends\filebased.py first seen with mtime 1772609911.157444
+File C:\mypython3\myenv01\Lib\site-packages\django\template\loader.py first seen with mtime 1772609911.4225125
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\concurrent\futures\_base.py first seen with mtime 1772603059.6015463
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\graphlib.py first seen with mtime 1772603059.0935044
+File C:\mypython3\myenv01\Lib\site-packages\sqlparse\formatter.py first seen with mtime 1772609905.8270752
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\expressions.py first seen with mtime 1772609911.31496
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\admin\templatetags\base.py first seen with mtime 1772609908.560116
+File C:\mypython3\myenv01\Lib\site-packages\django\http\multipartparser.py first seen with mtime 1772609911.4009514
+File C:\mypython3\myenv01\Lib\site-packages\django\core\management\color.py first seen with mtime 1772609911.2004137
+File C:\mypython3\myenv01\Lib\site-packages\django\db\migrations\migration.py first seen with mtime 1772609911.301384
+File C:\mypython3\myenv01\Lib\site-packages\django\db\backends\sqlite3\base.py first seen with mtime 1772609911.2923796
+File C:\mypython3\myenv01\Lib\site-packages\django\utils\decorators.py first seen with mtime 1772609911.4745407
+File C:\mypython3\myenv01\Lib\site-packages\django\core\__init__.py first seen with mtime 1772609911.148311
+File C:\mypython3\myenv01\Lib\site-packages\django\core\signing.py first seen with mtime 1772609911.1523104
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\sessions\__init__.py first seen with mtime 1772609910.5562034
+File C:\mypython3\myenv01\Lib\site-packages\django\core\checks\security\sessions.py first seen with mtime 1772609911.172411
+File C:\mypython3\myenv01\Lib\site-packages\django\utils\safestring.py first seen with mtime 1772609911.4895058
+File C:\mypython3\myenv01\Lib\site-packages\django\http\__init__.py first seen with mtime 1772609911.3999445
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\mimetypes.py first seen with mtime 1772603059.1063204
+File C:\mypython3\myenv01\Lib\site-packages\django\utils\dateformat.py first seen with mtime 1772609911.4725063
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\contenttypes\fields.py first seen with mtime 1772609908.9754388
+File C:\mypython3\myenv01\Lib\site-packages\django\dispatch\__init__.py first seen with mtime 1772609911.3369687
+File C:\mypython3\myenv01\Lib\site-packages\django\utils\text.py first seen with mtime 1772609911.4915073
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\staticfiles\checks.py first seen with mtime 1772609911.1373162
+File C:\mypython3\myenv01\Lib\site-packages\django\core\checks\security\csrf.py first seen with mtime 1772609911.172411
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\random.py first seen with mtime 1772603059.12943
+File C:\mypython3\myenv01\Lib\site-packages\django\http\response.py first seen with mtime 1772609911.4019442
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\wsgiref\simple_server.py first seen with mtime 1772603059.5593412
+File C:\mypython3\myenv01\Lib\site-packages\django\db\migrations\utils.py first seen with mtime 1772609911.3053856
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\sessions\apps.py first seen with mtime 1772609910.557219
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\heapq.py first seen with mtime 1772603059.0955184
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\staticfiles\apps.py first seen with mtime 1772609911.136312
+File C:\mypython3\myenv01\Lib\site-packages\django\core\checks\model_checks.py first seen with mtime 1772609911.1653986
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\staticfiles\utils.py first seen with mtime 1772609911.141315
+File C:\mypython3\myenv01\Lib\site-packages\asgiref\sync.py first seen with mtime 1772609906.990452
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\encodings\utf_8.py first seen with mtime 1772603059.3630106
+File C:\mypython3\hello_django\hello_django\settings.py first seen with mtime 1772634121.4542854
+File C:\mypython3\myenv01\Lib\site-packages\django\conf\__init__.py first seen with mtime 1772609907.5914836
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\concurrent\__init__.py first seen with mtime 1772603059.2259135
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\messages\storage\base.py first seen with mtime 1772609910.1846445
+File C:\mypython3\myenv01\Lib\site-packages\django\views\decorators\common.py first seen with mtime 1772609911.5105324
+File C:\mypython3\myenv01\Lib\site-packages\asgiref\local.py first seen with mtime 1772609906.9881277
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\_compat_pickle.py first seen with mtime 1772603059.1761978
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\admin\decorators.py first seen with mtime 1772609907.972161
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\sites\shortcuts.py first seen with mtime 1772609910.8097343
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\gettext.py first seen with mtime 1772603059.0920534
+File C:\mypython3\myenv01\Lib\site-packages\django\forms\formsets.py first seen with mtime 1772609911.3399515
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\admin\sites.py first seen with mtime 1772609907.9761608
+File C:\mypython3\myenv01\Lib\site-packages\django\views\generic\detail.py first seen with mtime 1772609911.5170884
+File C:\mypython3\myenv01\Lib\site-packages\django\utils\deprecation.py first seen with mtime 1772609911.4755054
+File C:\mypython3\myenv01\Lib\site-packages\django\utils\module_loading.py first seen with mtime 1772609911.48651
+File C:\mypython3\myenv01\Lib\site-packages\django\core\mail\utils.py first seen with mtime 1772609911.1933992
+File C:\mypython3\myenv01\Lib\site-packages\django\core\management\base.py first seen with mtime 1772609911.2004137
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\importlib\__init__.py first seen with mtime 1772603059.4503143
+File C:\mypython3\myenv01\Lib\site-packages\django\core\checks\translation.py first seen with mtime 1772609911.1673992
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\tempfile.py first seen with mtime 1772603059.1523843
+File C:\mypython3\myenv01\Lib\site-packages\django\utils\html.py first seen with mtime 1772609911.4795053
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\admin\views\main.py first seen with mtime 1772609908.569098
+File C:\mypython3\myenv01\Lib\site-packages\django\core\checks\commands.py first seen with mtime 1772609911.162398
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\pkgutil.py first seen with mtime 1772603059.1169214
+File C:\mypython3\myenv01\Lib\site-packages\sqlparse\filters\__init__.py first seen with mtime 1772609905.835567
+File C:\mypython3\myenv01\Lib\site-packages\sqlparse\exceptions.py first seen with mtime 1772609905.826075
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\selector_events.py first seen with mtime 1772603059.2064004
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\manager.py first seen with mtime 1772609911.315932
+File C:\mypython3\myenv01\Lib\site-packages\django\utils\functional.py first seen with mtime 1772609911.4775124
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\secrets.py first seen with mtime 1772603059.1333532
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\admin\views\autocomplete.py first seen with mtime 1772609908.5656989
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\fields\proxy.py first seen with mtime 1772609911.3239453
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\ctypes\wintypes.py first seen with mtime 1772603059.227106
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\admin\templatetags\admin_urls.py first seen with mtime 1772609908.556671
+File C:\mypython3\myenv01\Lib\site-packages\django\core\signals.py first seen with mtime 1772609911.1513395
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\futures.py first seen with mtime 1772603059.1989655
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\email\mime\__init__.py first seen with mtime 1772603059.6208637
+File C:\mypython3\myenv01\Lib\site-packages\sqlparse\engine\statement_splitter.py first seen with mtime 1772609905.8345704
+File C:\mypython3\myenv01\Lib\site-packages\django\utils\numberformat.py first seen with mtime 1772609911.487508
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\signal.py first seen with mtime 1772603059.1373782
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\ast.py first seen with mtime 1772603059.0596828
+File C:\mypython3\myenv01\Lib\site-packages\django\core\mail\__init__.py first seen with mtime 1772609911.1914017
+File C:\mypython3\myenv01\Lib\site-packages\django\core\checks\files.py first seen with mtime 1772609911.1644437
+File C:\mypython3\myenv01\Lib\site-packages\django\urls\conf.py first seen with mtime 1772609911.4535134
+File C:\mypython3\myenv01\Lib\site-packages\django\core\validators.py first seen with mtime 1772609911.1523104
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\json\scanner.py first seen with mtime 1772603059.4527433
+File C:\mypython3\myenv01\Lib\site-packages\django\core\serializers\__init__.py first seen with mtime 1772609911.2209637
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\enums.py first seen with mtime 1772609911.3139548
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_tasks.py first seen with mtime 1772603059.1939645
+File C:\mypython3\myenv01\Lib\site-packages\django\http\request.py first seen with mtime 1772609911.4009514
+File C:\mypython3\myenv01\Lib\site-packages\django\template\base.py first seen with mtime 1772609911.416611
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\functions\mixins.py first seen with mtime 1772609911.3309882
+File C:\mypython3\myenv01\Lib\site-packages\django\utils\duration.py first seen with mtime 1772609911.4755054
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\textwrap.py first seen with mtime 1772603059.153385
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\utils.py first seen with mtime 1772609911.3199317
+File C:\mypython3\myenv01\Lib\site-packages\django\template\library.py first seen with mtime 1772609911.421524
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\fields\related.py first seen with mtime 1772609911.3249452
+File C:\mypython3\myenv01\Lib\site-packages\django\views\generic\edit.py first seen with mtime 1772609911.5170884
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\auth\__init__.py first seen with mtime 1772609908.7544763
+File C:\mypython3\myenv01\Lib\site-packages\django\utils\dates.py first seen with mtime 1772609911.4735112
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\DLLs\_lzma.pyd first seen with mtime 1772603058.9779336
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\multiprocessing\process.py first seen with mtime 1772603059.4671905
+File C:\mypython3\myenv01\Lib\site-packages\django\templatetags\i18n.py first seen with mtime 1772609911.4385085
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\keyword.py first seen with mtime 1772603059.1018937
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\functions\__init__.py first seen with mtime 1772609911.3279352
+File C:\mypython3\myenv01\Lib\site-packages\django\template\loaders\__init__.py first seen with mtime 1772609911.4295118
+File C:\mypython3\myenv01\Lib\site-packages\sqlparse\__init__.py first seen with mtime 1772609905.8250802
+File C:\mypython3\myenv01\Lib\site-packages\django\template\backends\base.py first seen with mtime 1772609911.4265058
+File C:\mypython3\myenv01\Lib\site-packages\django\utils\timezone.py first seen with mtime 1772609911.4935126
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\contenttypes\management\__init__.py first seen with mtime 1772609909.262035
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\contextlib.py first seen with mtime 1772603059.0729773
+File C:\mypython3\myenv01\Lib\site-packages\django\core\handlers\__init__.py first seen with mtime 1772609911.1864178
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\lookups.py first seen with mtime 1772609911.315932
+File C:\mypython3\myenv01\Lib\site-packages\django\core\exceptions.py first seen with mtime 1772609911.150311
+File C:\mypython3\myenv01\Lib\site-packages\django\db\migrations\__init__.py first seen with mtime 1772609911.2973855
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\sql\query.py first seen with mtime 1772609911.3349776
+File C:\mypython3\myenv01\Lib\site-packages\django\views\static.py first seen with mtime 1772609911.5065343
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\auth\base_user.py first seen with mtime 1772609908.7575881
+File C:\mypython3\myenv01\Lib\site-packages\django\db\migrations\questioner.py first seen with mtime 1772609911.3023844
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\string\__init__.py first seen with mtime 1772603059.4998355
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\__init__.py first seen with mtime 1772603059.2178202
+File C:\mypython3\myenv01\Lib\site-packages\django\core\files\storage\base.py first seen with mtime 1772609911.1824
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\email\_header_value_parser.py first seen with mtime 1772603059.2552211
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\DLLs\_bz2.pyd first seen with mtime 1772603058.9699154
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\linecache.py first seen with mtime 1772603059.1018937
+File C:\mypython3\myenv01\Lib\site-packages\django\utils\connection.py first seen with mtime 1772609911.4695156
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\functions\datetime.py first seen with mtime 1772609911.3289683
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\trsock.py first seen with mtime 1772603059.2148206
+File C:\mypython3\myenv01\Lib\site-packages\django\db\backends\ddl_references.py first seen with mtime 1772609911.229949
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\json\encoder.py first seen with mtime 1772603059.4517355
+File C:\mypython3\myenv01\Lib\site-packages\django\core\management\__init__.py first seen with mtime 1772609911.1994085
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\urllib\request.py first seen with mtime 1772603059.5519993
+File C:\mypython3\myenv01\Lib\site-packages\django\db\backends\base\operations.py first seen with mtime 1772609911.248943
+File C:\mypython3\myenv01\Lib\site-packages\django\core\files\temp.py first seen with mtime 1772609911.1784022
+File C:\mypython3\myenv01\Lib\site-packages\sqlparse\sql.py first seen with mtime 1772609905.830074
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\getpass.py first seen with mtime 1772603059.0910528
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\staggered.py first seen with mtime 1772603059.2073996
+File C:\mypython3\myenv01\Lib\site-packages\django\views\generic\dates.py first seen with mtime 1772609911.5161662
+File C:\mypython3\myenv01\Lib\site-packages\django\db\backends\sqlite3\operations.py first seen with mtime 1772609911.2963777
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\_colorize.py first seen with mtime 1772603059.1751955
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\compression\zstd\_zstdfile.py first seen with mtime 1772603059.5958712
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\sysconfig\__init__.py first seen with mtime 1772603059.5008337
+File C:\mypython3\myenv01\Lib\site-packages\django\core\checks\async_checks.py first seen with mtime 1772609911.1613994
+File C:\mypython3\myenv01\Lib\site-packages\django\db\backends\base\validation.py first seen with mtime 1772609911.2509396
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_subprocess.py first seen with mtime 1772603059.1929698
+File C:\mypython3\myenv01\Lib\site-packages\django\shortcuts.py first seen with mtime 1772609907.58748
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\datetime.py first seen with mtime 1772603059.0790124
+File C:\mypython3\myenv01\Lib\site-packages\django\core\checks\messages.py first seen with mtime 1772609911.1653986
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\pickle.py first seen with mtime 1772603059.11492
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\DLLs\unicodedata.pyd first seen with mtime 1772603058.9669144
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\windows_events.py first seen with mtime 1772603059.2168238
+File C:\mypython3\myenv01\Lib\site-packages\django\views\decorators\csrf.py first seen with mtime 1772609911.5120509
+File C:\mypython3\myenv01\Lib\site-packages\django\core\handlers\wsgi.py first seen with mtime 1772609911.190414
+File C:\mypython3\myenv01\Lib\site-packages\django\utils\deconstruct.py first seen with mtime 1772609911.4745407
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\DLLs\select.pyd first seen with mtime 1772603058.961911
+File C:\mypython3\myenv01\Lib\site-packages\django\views\debug.py first seen with mtime 1772609911.5045302
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\windows_utils.py first seen with mtime 1772603059.2178202
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\__init__.py first seen with mtime 1772609907.9691615
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py first seen with mtime 1772609908.5512242
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\email\mime\multipart.py first seen with mtime 1772603059.618864
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\http\cookies.py first seen with mtime 1772603059.37702
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\multiprocessing\context.py first seen with mtime 1772603059.4601912
+File C:\mypython3\myenv01\Lib\site-packages\django\conf\global_settings.py first seen with mtime 1772609907.5914836
+File C:\mypython3\myenv01\Lib\site-packages\django\views\generic\base.py first seen with mtime 1772609911.5161662
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\json\decoder.py first seen with mtime 1772603059.4503143
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\admin\templatetags\admin_modify.py first seen with mtime 1772609908.5536723
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\fields\tuple_lookups.py first seen with mtime 1772609911.3269374
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\queue.py first seen with mtime 1772603059.127425
+File C:\mypython3\myenv01\Lib\site-packages\django\core\serializers\base.py first seen with mtime 1772609911.221974
+File C:\mypython3\myenv01\Lib\site-packages\django\core\checks\registry.py first seen with mtime 1772609911.1664011
+File C:\mypython3\myenv01\Lib\site-packages\django\db\backends\sqlite3\__init__.py first seen with mtime 1772609911.2914157
+File C:\mypython3\myenv01\Lib\site-packages\django\templatetags\l10n.py first seen with mtime 1772609911.4385085
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\wsgiref\handlers.py first seen with mtime 1772603059.5570025
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\collections\__init__.py first seen with mtime 1772603059.2203023
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\DLLs\_ctypes.pyd first seen with mtime 1772603058.9719217
+File C:\mypython3\myenv01\Lib\site-packages\django\db\backends\base\introspection.py first seen with mtime 1772609911.2479396
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\sql\constants.py first seen with mtime 1772609911.333936
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\socketserver.py first seen with mtime 1772603059.140378
+File C:\mypython3\myenv01\Lib\site-packages\django\core\management\commands\makemigrations.py first seen with mtime 1772609911.2104123
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\fields\reverse_related.py first seen with mtime 1772609911.3269374
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\types.py first seen with mtime 1772603059.1630309
+File C:\mypython3\myenv01\Lib\site-packages\django\core\files\locks.py first seen with mtime 1772609911.1764045
+File C:\mypython3\myenv01\Lib\site-packages\django\core\servers\basehttp.py first seen with mtime 1772609911.226942
+File C:\mypython3\myenv01\Lib\site-packages\django\db\migrations\operations\__init__.py first seen with mtime 1772609911.306384
+File C:\mypython3\myenv01\Lib\site-packages\django\template\utils.py first seen with mtime 1772609911.424506
+File C:\mypython3\myenv01\Lib\site-packages\django\utils\formats.py first seen with mtime 1772609911.4775124
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\email\parser.py first seen with mtime 1772603059.2502222
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\selectors.py first seen with mtime 1772603059.1343675
+File C:\mypython3\myenv01\Lib\site-packages\django\utils\timesince.py first seen with mtime 1772609911.4925663
+File C:\mypython3\myenv01\Lib\site-packages\django\core\files\images.py first seen with mtime 1772609911.1754012
+File C:\mypython3\myenv01\Lib\site-packages\django\utils\termcolors.py first seen with mtime 1772609911.4905567
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\fields\related_lookups.py first seen with mtime 1772609911.325946
+File C:\mypython3\myenv01\Lib\site-packages\django\core\files\base.py first seen with mtime 1772609911.1744115
+File C:\mypython3\myenv01\Lib\site-packages\django\dispatch\dispatcher.py first seen with mtime 1772609911.3369687
+File C:\mypython3\myenv01\Lib\site-packages\django\utils\tree.py first seen with mtime 1772609911.4935126
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\timeouts.py first seen with mtime 1772603059.2128227
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\staticfiles\handlers.py first seen with mtime 1772609911.1383202
+File C:\mypython3\myenv01\Lib\site-packages\sqlparse\keywords.py first seen with mtime 1772609905.8280842
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\admin\templatetags\log.py first seen with mtime 1772609908.5623581
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\staticfiles\management\commands\runserver.py first seen with mtime 1772609911.1453328
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\streams.py first seen with mtime 1772603059.2084088
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\inspect.py first seen with mtime 1772603059.098746
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\contenttypes\forms.py first seen with mtime 1772609908.9764411
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\email\_policybase.py first seen with mtime 1772603059.2562194
+File C:\mypython3\myenv01\Lib\site-packages\django\forms\forms.py first seen with mtime 1772609911.3399515
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\lzma.py first seen with mtime 1772603059.104315
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\transports.py first seen with mtime 1772603059.2148206
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\auth\admin.py first seen with mtime 1772609908.75549
+File C:\mypython3\myenv01\Lib\site-packages\django\db\migrations\operations\base.py first seen with mtime 1772609911.307403
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\email\__init__.py first seen with mtime 1772603059.2572308
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\wsgiref\__init__.py first seen with mtime 1772603059.5623398
+File C:\mypython3\myenv01\Lib\site-packages\django\utils\encoding.py first seen with mtime 1772609911.476506
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\DLLs\_overlapped.pyd first seen with mtime 1772603058.9809344
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\DLLs\_wmi.pyd first seen with mtime 1772603058.9909337
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\ctypes\_endian.py first seen with mtime 1772603059.2291305
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\ipaddress.py first seen with mtime 1772603059.1007755
+File C:\mypython3\myenv01\Lib\site-packages\django\template\smartif.py first seen with mtime 1772609911.423509
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\auth\templatetags\__init__.py first seen with mtime 1772609908.9724424
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\auth\decorators.py first seen with mtime 1772609908.7616053
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\auth\signals.py first seen with mtime 1772609908.7680235
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\email\message.py first seen with mtime 1772603059.2502222
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\_os.py first seen with mtime 1772603059.4796784
+File C:\mypython3\myenv01\Lib\site-packages\django\db\backends\sqlite3\schema.py first seen with mtime 1772609911.2963777
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\logging\handlers.py first seen with mtime 1772603059.4571898
+File C:\mypython3\myenv01\Lib\site-packages\django\template\backends\__init__.py first seen with mtime 1772609911.4255085
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\DLLs\_zoneinfo.pyd first seen with mtime 1772603058.9919338
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\staticfiles\finders.py first seen with mtime 1772609911.1373162
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\wsgiref\util.py first seen with mtime 1772603059.5603416
+File C:\mypython3\myenv01\Lib\site-packages\django\db\transaction.py first seen with mtime 1772609911.227948
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\weakref.py first seen with mtime 1772603059.1677618
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\__init__.py first seen with mtime 1772609911.3093834
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\locale.py first seen with mtime 1772603059.1033041
+File C:\mypython3\myenv01\Lib\site-packages\django\core\servers\__init__.py first seen with mtime 1772609911.2259424
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\dataclasses.py first seen with mtime 1772603059.076982
+File C:\mypython3\myenv01\Lib\site-packages\sqlparse\cli.py first seen with mtime 1772609905.826075
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\multiprocessing\reduction.py first seen with mtime 1772603059.4696817
+File C:\mypython3\myenv01\Lib\site-packages\django\utils\log.py first seen with mtime 1772609911.4845054
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\sqlite3\__init__.py first seen with mtime 1772603059.4957497
+File C:\mypython3\myenv01\Lib\site-packages\django\db\backends\base\base.py first seen with mtime 1772609911.2439382
+File C:\mypython3\myenv01\Lib\site-packages\sqlparse\utils.py first seen with mtime 1772609905.8310752
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\_opcode_metadata.py first seen with mtime 1772603059.1781938
+File C:\mypython3\myenv01\Lib\site-packages\django\middleware\cache.py first seen with mtime 1772609911.402944
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\calendar.py first seen with mtime 1772603059.064979
+File C:\mypython3\myenv01\Lib\site-packages\django\db\backends\__init__.py first seen with mtime 1772609911.229949
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\sqlite3\dbapi2.py first seen with mtime 1772603059.494734
+File C:\mypython3\myenv01\Lib\site-packages\django\forms\boundfield.py first seen with mtime 1772609911.339002
+File C:\mypython3\myenv01\Lib\site-packages\django\db\backends\utils.py first seen with mtime 1772609911.240939
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\threads.py first seen with mtime 1772603059.21181
+File C:\mypython3\myenv01\Lib\site-packages\django\core\files\storage\filesystem.py first seen with mtime 1772609911.183401
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\sites\__init__.py first seen with mtime 1772609910.801757
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\fields\__init__.py first seen with mtime 1772609911.3209507
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\email\header.py first seen with mtime 1772603059.247224
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\auth\checks.py first seen with mtime 1772609908.758604
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\socket.py first seen with mtime 1772603059.1393833
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\auth\password_validation.py first seen with mtime 1772609908.7680235
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\bz2.py first seen with mtime 1772603059.0639806
+File C:\mypython3\myenv01\Lib\site-packages\django\apps\__init__.py first seen with mtime 1772609907.5884817
+File C:\mypython3\myenv01\Lib\site-packages\django\core\checks\__init__.py first seen with mtime 1772609911.1604018
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\auth\models.py first seen with mtime 1772609908.7670407
+File C:\mypython3\myenv01\Lib\site-packages\django\apps\config.py first seen with mtime 1772609907.5894835
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\numbers.py first seen with mtime 1772603059.1103265
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\fields\generated.py first seen with mtime 1772609911.3229456
+File C:\mypython3\myenv01\Lib\site-packages\django\db\migrations\optimizer.py first seen with mtime 1772609911.3023844
+File C:\mypython3\myenv01\Lib\site-packages\django\views\generic\list.py first seen with mtime 1772609911.5180693
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\query_utils.py first seen with mtime 1772609911.3189316
+File C:\mypython3\myenv01\Lib\site-packages\django\db\backends\sqlite3\introspection.py first seen with mtime 1772609911.2953792
+File C:\mypython3\myenv01\Lib\site-packages\django\template\loaders\filesystem.py first seen with mtime 1772609911.4335063
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\messages\storage\__init__.py first seen with mtime 1772609910.183671
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\email\base64mime.py first seen with mtime 1772603059.2403517
+File C:\mypython3\myenv01\Lib\site-packages\django\db\backends\base\schema.py first seen with mtime 1772609911.2509396
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\http\__init__.py first seen with mtime 1772603059.3780193
+File C:\mypython3\myenv01\Lib\site-packages\sqlparse\filters\aligned_indent.py first seen with mtime 1772609905.835567
+File C:\mypython3\myenv01\Lib\site-packages\django\urls\resolvers.py first seen with mtime 1772609911.4575088
+File C:\mypython3\myenv01\Lib\site-packages\django\utils\__init__.py first seen with mtime 1772609911.4595156
+File C:\mypython3\myenv01\Lib\site-packages\django\core\management\commands\__init__.py first seen with mtime 1772609911.2034073
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\tasks.py first seen with mtime 1772603059.2104194
+File C:\mypython3\myenv01\Lib\site-packages\django\template\exceptions.py first seen with mtime 1772609911.420509
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py first seen with mtime 1772603059.48068
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\http\client.py first seen with mtime 1772603059.3750203
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\contenttypes\__init__.py first seen with mtime 1772609908.9734402
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\base64.py first seen with mtime 1772603059.0607057
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\importlib\_abc.py first seen with mtime 1772603059.4473128
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\json\__init__.py first seen with mtime 1772603059.453745
+File C:\mypython3\myenv01\Lib\site-packages\django\core\cache\utils.py first seen with mtime 1772609911.1543193
+File C:\mypython3\hello_django\hello_django\urls.py first seen with mtime 1772610048.5082476
+File C:\mypython3\myenv01\Lib\site-packages\sqlparse\filters\tokens.py first seen with mtime 1772609905.8395674
+File C:\mypython3\myenv01\Lib\site-packages\django\db\backends\base\client.py first seen with mtime 1772609911.2449398
+File C:\mypython3\myenv01\Lib\site-packages\django\templatetags\__init__.py first seen with mtime 1772609911.4345458
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\sql\__init__.py first seen with mtime 1772609911.331941
+File C:\mypython3\myenv01\Lib\site-packages\django\db\backends\sqlite3\_functions.py first seen with mtime 1772609911.2923796
+File C:\mypython3\myenv01\Lib\site-packages\django\forms\renderers.py first seen with mtime 1772609911.3419757
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\compression\zstd\__init__.py first seen with mtime 1772603059.5968702
+File C:\mypython3\myenv01\Lib\site-packages\django\utils\_os.py first seen with mtime 1772609911.4615521
+File C:\mypython3\myenv01\Lib\site-packages\django\db\migrations\loader.py first seen with mtime 1772609911.3003836
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\email\encoders.py first seen with mtime 1772603059.2427845
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\fields\composite.py first seen with mtime 1772609911.3219464
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\admin\templatetags\__init__.py first seen with mtime 1772609908.5472205
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\annotationlib.py first seen with mtime 1772603059.055874
+File C:\mypython3\myenv01\Lib\site-packages\asgiref\current_thread_executor.py first seen with mtime 1772609906.987116
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\wsgiref\headers.py first seen with mtime 1772603059.5583305
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\email\iterators.py first seen with mtime 1772603059.2492201
+File C:\mypython3\myenv01\Lib\site-packages\django\template\__init__.py first seen with mtime 1772609911.4145303
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\uuid.py first seen with mtime 1772603059.1655376
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\subprocess.py first seen with mtime 1772603059.2094078
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\admin\apps.py first seen with mtime 1772609907.971162
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\glob.py first seen with mtime 1772603059.0920534
+File C:\mypython3\myenv01\Lib\site-packages\django\forms\widgets.py first seen with mtime 1772609911.3429363
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\events.py first seen with mtime 1772603059.196968
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\DLLs\_hashlib.pyd first seen with mtime 1772603058.9769332
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\DLLs\_socket.pyd first seen with mtime 1772603058.9849331
+File C:\mypython3\myenv01\Lib\site-packages\django\utils\dateparse.py first seen with mtime 1772609911.4725063
+File C:\mypython3\myenv01\Lib\site-packages\django\core\handlers\asgi.py first seen with mtime 1772609911.1884093
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\compression\__init__.py first seen with mtime 1772603059.2247212
+File C:\mypython3\myenv01\Lib\site-packages\django\db\migrations\operations\special.py first seen with mtime 1772609911.3093834
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\encodings\__init__.py first seen with mtime 1772603059.36702
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\messages\apps.py first seen with mtime 1772609910.1787295
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\zoneinfo\__init__.py first seen with mtime 1772603059.5705695
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\tokenize.py first seen with mtime 1772603059.1580117
+File C:\mypython3\myenv01\Lib\site-packages\django\core\files\storage\mixins.py first seen with mtime 1772609911.1864178
+File C:\mypython3\myenv01\Lib\site-packages\asgiref\__init__.py first seen with mtime 1772609906.984804
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\enum.py first seen with mtime 1772603059.0830126
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\locks.py first seen with mtime 1772603059.199967
+File C:\mypython3\myenv01\Lib\site-packages\django\utils\translation\__init__.py first seen with mtime 1772609911.4975238
+File C:\mypython3\myenv01\Lib\site-packages\django\utils\inspect.py first seen with mtime 1772609911.4815066
+File C:\mypython3\myenv01\Lib\site-packages\django\http\cookie.py first seen with mtime 1772609911.3999445
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\constants.py first seen with mtime 1772609911.3119147
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\struct.py first seen with mtime 1772603059.1473794
+File C:\mypython3\myenv01\Lib\site-packages\django\urls\base.py first seen with mtime 1772609911.4525087
+File C:\mypython3\myenv01\Lib\site-packages\django\core\cache\backends\base.py first seen with mtime 1772609911.1553879
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\compression\_common\__init__.py first seen with mtime 1772603059.5980186
+File C:\mypython3\myenv01\Lib\site-packages\django\core\management\utils.py first seen with mtime 1772609911.2034073
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\html\entities.py first seen with mtime 1772603059.372021
+File C:\mypython3\myenv01\Lib\site-packages\django\core\files\storage\memory.py first seen with mtime 1772609911.185402
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\reprlib.py first seen with mtime 1772603059.1304288
+File C:\mypython3\myenv01\Lib\site-packages\django\template\engine.py first seen with mtime 1772609911.419503
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\auth\apps.py first seen with mtime 1772609908.7564886
+File C:\mypython3\myenv01\Lib\site-packages\sqlparse\lexer.py first seen with mtime 1772609905.8290758
+File C:\mypython3\myenv01\Lib\site-packages\django\core\handlers\base.py first seen with mtime 1772609911.1884093
+File C:\mypython3\myenv01\Lib\site-packages\django\core\checks\database.py first seen with mtime 1772609911.1635108
+File C:\mypython3\myenv01\Lib\site-packages\django\core\files\storage\__init__.py first seen with mtime 1772609911.1824
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\_py_warnings.py first seen with mtime 1772603059.185195
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\email\policy.py first seen with mtime 1772603059.2512207
+File C:\mypython3\myenv01\Lib\site-packages\sqlparse\filters\right_margin.py first seen with mtime 1772609905.8385663
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\sql\subqueries.py first seen with mtime 1772609911.335961
+File C:\mypython3\myenv01\Lib\site-packages\django\views\__init__.py first seen with mtime 1772609911.502524
+File C:\mypython3\myenv01\Lib\site-packages\django\db\__init__.py first seen with mtime 1772609911.227948
+File C:\mypython3\myenv01\Lib\site-packages\sqlparse\engine\grouping.py first seen with mtime 1772609905.8335586
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\warnings.py first seen with mtime 1772603059.1655376
+File C:\mypython3\myenv01\Lib\site-packages\django\core\serializers\python.py first seen with mtime 1772609911.2239847
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\auth\forms.py first seen with mtime 1772609908.762604
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\auth\validators.py first seen with mtime 1772609908.7700262
+File C:\mypython3\myenv01\Lib\site-packages\django\core\handlers\exception.py first seen with mtime 1772609911.1894033
+File C:\mypython3\myenv01\Lib\site-packages\django\db\backends\base\features.py first seen with mtime 1772609911.246943
+File C:\mypython3\myenv01\Lib\site-packages\django\template\context.py first seen with mtime 1772609911.4175055
+File C:\mypython3\myenv01\Lib\site-packages\django\core\checks\security\base.py first seen with mtime 1772609911.171401
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\token.py first seen with mtime 1772603059.1567345
+File C:\mypython3\myenv01\Lib\site-packages\django\core\checks\security\__init__.py first seen with mtime 1772609911.170464
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\staticfiles\management\commands\__init__.py first seen with mtime 1772609911.1433127
+File C:\mypython3\myenv01\Lib\site-packages\django\templatetags\cache.py first seen with mtime 1772609911.4375136
+File C:\mypython3\myenv01\Lib\site-packages\django\utils\ipv6.py first seen with mtime 1772609911.4825358
+File C:\mypython3\myenv01\Lib\site-packages\django\views\generic\__init__.py first seen with mtime 1772609911.515066
+File C:\mypython3\myenv01\Lib\site-packages\django\db\backends\base\creation.py first seen with mtime 1772609911.2459402
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\DLLs\_uuid.pyd first seen with mtime 1772603058.9899337
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\staticfiles\views.py first seen with mtime 1772609911.141315
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\functions\text.py first seen with mtime 1772609911.3309882
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\email\mime\base.py first seen with mtime 1772603059.6148646
+File C:\mypython3\myenv01\Lib\site-packages\django\core\checks\caches.py first seen with mtime 1772609911.162398
+File C:\mypython3\myenv01\Lib\site-packages\django\utils\autoreload.py first seen with mtime 1772609911.465508
+File C:\mypython3\myenv01\Lib\site-packages\django\utils\crypto.py first seen with mtime 1772609911.470511
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\hashlib.py first seen with mtime 1772603059.0955184
+File C:\mypython3\myenv01\Lib\site-packages\django\db\migrations\state.py first seen with mtime 1772609911.3043833
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\admin\checks.py first seen with mtime 1772609907.971162
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\admin\options.py first seen with mtime 1772609907.9761608
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\auth\hashers.py first seen with mtime 1772609908.7640173
+File C:\mypython3\myenv01\Lib\site-packages\django\core\checks\compatibility\django_4_0.py first seen with mtime 1772609911.170464
+File C:\mypython3\myenv01\Lib\site-packages\django\core\files\move.py first seen with mtime 1772609911.1774073
+File C:\mypython3\myenv01\Lib\site-packages\django\template\loader_tags.py first seen with mtime 1772609911.4225125
+File C:\mypython3\myenv01\Lib\site-packages\django\core\management\sql.py first seen with mtime 1772609911.2014122
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\queues.py first seen with mtime 1772603059.2043972
+File C:\mypython3\myenv01\Lib\site-packages\django\core\files\storage\handler.py first seen with mtime 1772609911.1844025
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\fields\mixins.py first seen with mtime 1772609911.3239453
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\copyreg.py first seen with mtime 1772603059.0749805
+File C:\mypython3\myenv01\Lib\site-packages\django\template\defaultfilters.py first seen with mtime 1772609911.4185047
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\shutil.py first seen with mtime 1772603059.13638
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\bisect.py first seen with mtime 1772603059.062979
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\html\parser.py first seen with mtime 1772603059.3730192
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\admin\filters.py first seen with mtime 1772609907.9731615
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\constants.py first seen with mtime 1772603059.1949663
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\zoneinfo\_tzpath.py first seen with mtime 1772603059.5695534
+File C:\mypython3\myenv01\Lib\site-packages\django\middleware\__init__.py first seen with mtime 1772609911.4019442
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\contenttypes\admin.py first seen with mtime 1772609908.9744387
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\constraints.py first seen with mtime 1772609911.3119147
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\staticfiles\__init__.py first seen with mtime 1772609911.1353722
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\format_helpers.py first seen with mtime 1772603059.197966
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\indexes.py first seen with mtime 1772609911.31496
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\sql\where.py first seen with mtime 1772609911.335961
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\signals.py first seen with mtime 1772609911.3189316
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\encodings\_win_cp_codecs.py first seen with mtime 1772603059.3660195
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\functions\window.py first seen with mtime 1772609911.331941
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\pprint.py first seen with mtime 1772603059.1213982
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\ssl.py first seen with mtime 1772603059.1433794
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\concurrent\futures\__init__.py first seen with mtime 1772603059.6025512
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\sql\datastructures.py first seen with mtime 1772609911.333936
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\gzip.py first seen with mtime 1772603059.0945187
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\opcode.py first seen with mtime 1772603059.1103265
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\functions\comparison.py first seen with mtime 1772609911.3279352
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\options.py first seen with mtime 1772609911.3169327
+File C:\mypython3\myenv01\Lib\site-packages\django\forms\utils.py first seen with mtime 1772609911.3419757
+File C:\mypython3\myenv01\Lib\site-packages\django\urls\exceptions.py first seen with mtime 1772609911.4565544
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\admin\widgets.py first seen with mtime 1772609907.978161
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\traceback.py first seen with mtime 1772603059.159023
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\fields\files.py first seen with mtime 1772609911.3219464
+File C:\mypython3\myenv01\Lib\site-packages\django\db\migrations\writer.py first seen with mtime 1772609911.3053856
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\DLLs\_queue.pyd first seen with mtime 1772603058.9819324
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\email\feedparser.py first seen with mtime 1772603059.2452226
+File C:\mypython3\myenv01\Lib\site-packages\django\db\backends\sqlite3\client.py first seen with mtime 1772609911.2933984
+File C:\mypython3\myenv01\Lib\site-packages\django\template\loaders\app_directories.py first seen with mtime 1772609911.4305131
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\admin\helpers.py first seen with mtime 1772609907.97416
+File C:\mypython3\myenv01\Lib\site-packages\django\template\loaders\base.py first seen with mtime 1772609911.4315617
+File C:\mypython3\myenv01\Lib\site-packages\django\template\loaders\cached.py first seen with mtime 1772609911.4325151
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\operator.py first seen with mtime 1772603059.111326
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\sessions\base_session.py first seen with mtime 1772609910.5581727
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\urllib\error.py first seen with mtime 1772603059.5500035
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\fields\json.py first seen with mtime 1772609911.3229456
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\mixins.py first seen with mtime 1772603059.2023997
+File C:\mypython3\myenv01\Lib\site-packages\django\core\files\uploadedfile.py first seen with mtime 1772609911.1794019
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\DLLs\_ssl.pyd first seen with mtime 1772603058.9879315
+File C:\mypython3\myenv01\Lib\site-packages\django\template\response.py first seen with mtime 1772609911.423509
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\_weakrefset.py first seen with mtime 1772603059.1888258
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\auth\templatetags\auth.py first seen with mtime 1772609908.9724424
+File C:\mypython3\myenv01\Lib\site-packages\django\db\backends\sqlite3\creation.py first seen with mtime 1772609911.2943776
+File C:\mypython3\hello_django\hello_django\__init__.py first seen with mtime 1772610048.522248
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\sessions\models.py first seen with mtime 1772609910.561203
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\copy.py first seen with mtime 1772603059.073986
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\auth\management\__init__.py first seen with mtime 1772609908.9604435
+File C:\mypython3\myenv01\Lib\site-packages\django\views\decorators\debug.py first seen with mtime 1772609911.5130618
+File C:\mypython3\myenv01\Lib\site-packages\django\db\backends\sqlite3\features.py first seen with mtime 1772609911.2943776
+File C:\mypython3\myenv01\Lib\site-packages\django\core\files\__init__.py first seen with mtime 1772609911.173404
+File C:\mypython3\myenv01\Lib\site-packages\django\forms\models.py first seen with mtime 1772609911.340935
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\re\__init__.py first seen with mtime 1772603059.4920328
+File C:\mypython3\myenv01\Lib\site-packages\django\core\paginator.py first seen with mtime 1772609911.150311
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\concurrent\futures\thread.py first seen with mtime 1772603059.6015463
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\runners.py first seen with mtime 1772603059.2053988
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\DLLs\_sqlite3.pyd first seen with mtime 1772603058.9859338
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\functools.py first seen with mtime 1772603059.0880315
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\email\errors.py first seen with mtime 1772603059.2442114
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\admin\__init__.py first seen with mtime 1772609907.970161
+File C:\mypython3\myenv01\Lib\site-packages\django\template\defaulttags.py first seen with mtime 1772609911.419503
+File C:\mypython3\hello_django\manage.py first seen with mtime 1772610048.444107
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\admin\views\__init__.py first seen with mtime 1772609908.564702
+File C:\mypython3\myenv01\Lib\site-packages\django\views\decorators\cache.py first seen with mtime 1772609911.508532
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\contenttypes\apps.py first seen with mtime 1772609908.9744387
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\__future__.py first seen with mtime 1772603059.1898353
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\admin\actions.py first seen with mtime 1772609907.970161
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\functions\json.py first seen with mtime 1772609911.3289683
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\fields\related_descriptors.py first seen with mtime 1772609911.325946
+File C:\mypython3\myenv01\Lib\site-packages\django\utils\http.py first seen with mtime 1772609911.4805295
+File C:\mypython3\myenv01\Lib\site-packages\sqlparse\engine\filter_stack.py first seen with mtime 1772609905.832075
+File C:\mypython3\myenv01\Lib\site-packages\django\db\utils.py first seen with mtime 1772609911.2289448
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\re\_constants.py first seen with mtime 1772603059.490029
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\messages\__init__.py first seen with mtime 1772609910.1777477
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\email\_encoded_words.py first seen with mtime 1772603059.254221
+File C:\mypython3\myenv01\Lib\site-packages\django\utils\asyncio.py first seen with mtime 1772609911.465508
+File C:\mypython3\myenv01\Lib\site-packages\django\db\backends\base\__init__.py first seen with mtime 1772609911.2419388
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\compression\_common\_streams.py first seen with mtime 1772603059.5980186
+File C:\mypython3\myenv01\Lib\site-packages\django\utils\regex_helper.py first seen with mtime 1772609911.4885068
+File C:\mypython3\myenv01\Lib\site-packages\django\db\migrations\executor.py first seen with mtime 1772609911.2993836
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\codeop.py first seen with mtime 1772603059.0689795
+File C:\mypython3\myenv01\Lib\site-packages\django\utils\copy.py first seen with mtime 1772609911.4695156
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\encodings\aliases.py first seen with mtime 1772603059.2584507
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\contenttypes\models.py first seen with mtime 1772609908.9774387
+File C:\mypython3\myenv01\Lib\site-packages\django\core\checks\compatibility\__init__.py first seen with mtime 1772609911.169401
+File C:\mypython3\myenv01\Lib\site-packages\django\utils\cache.py first seen with mtime 1772609911.467508
+File C:\mypython3\myenv01\Lib\site-packages\django\views\i18n.py first seen with mtime 1772609911.5065343
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\proactor_events.py first seen with mtime 1772603059.2034018
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\admin\utils.py first seen with mtime 1772609907.978161
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\platform.py first seen with mtime 1772603059.117919
+File C:\mypython3\myenv01\Lib\site-packages\sqlparse\engine\__init__.py first seen with mtime 1772609905.832075
+File C:\mypython3\myenv01\Lib\site-packages\django\utils\version.py first seen with mtime 1772609911.494514
+File C:\mypython3\myenv01\Lib\site-packages\django\core\wsgi.py first seen with mtime 1772609911.153319
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\email\mime\nonmultipart.py first seen with mtime 1772603059.6198637
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\fractions.py first seen with mtime 1772603059.086035
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\_markupbase.py first seen with mtime 1772603059.1771994
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\zoneinfo\_common.py first seen with mtime 1772603059.5683432
+File C:\mypython3\myenv01\Lib\site-packages\django\views\decorators\__init__.py first seen with mtime 1772609911.508532
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\messages\constants.py first seen with mtime 1772609910.179647
+File C:\mypython3\myenv01\Lib\site-packages\django\urls\__init__.py first seen with mtime 1772609911.4515078
+File C:\mypython3\myenv01\Lib\site-packages\django\core\files\utils.py first seen with mtime 1772609911.1804144
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\urllib\__init__.py first seen with mtime 1772603059.5550008
+File C:\mypython3\myenv01\Lib\site-packages\django\forms\fields.py first seen with mtime 1772609911.339002
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\http\server.py first seen with mtime 1772603059.3780193
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\aggregates.py first seen with mtime 1772609911.3103836
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\query.py first seen with mtime 1772609911.3179314
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\email\mime\message.py first seen with mtime 1772603059.6168656
+File C:\mypython3\myenv01\Lib\site-packages\django\utils\choices.py first seen with mtime 1772609911.4685059
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\email\generator.py first seen with mtime 1772603059.2462225
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\functions\math.py first seen with mtime 1772609911.3300033
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\email\mime\text.py first seen with mtime 1772603059.6208637
+File C:\mypython3\myenv01\Lib\site-packages\django\views\decorators\csp.py first seen with mtime 1772609911.5105324
+File C:\mypython3\myenv01\Lib\site-packages\django\core\serializers\json.py first seen with mtime 1772609911.2229426
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\html\__init__.py first seen with mtime 1772603059.3740191
+File C:\mypython3\myenv01\Lib\site-packages\django\core\cache\__init__.py first seen with mtime 1772609911.1543193
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py first seen with mtime 1772603059.1919544
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\decimal.py first seen with mtime 1772603059.0790124
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\subprocess.py first seen with mtime 1772603059.148381
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\dis.py first seen with mtime 1772603059.0810127
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\logging\config.py first seen with mtime 1772603059.4561808
+File C:\mypython3\myenv01\Lib\site-packages\django\forms\__init__.py first seen with mtime 1772609911.3379395
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\DLLs\_zstd.pyd first seen with mtime 1772603058.9949298
+File C:\mypython3\myenv01\Lib\site-packages\sqlparse\filters\others.py first seen with mtime 1772609905.8365662
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_futures.py first seen with mtime 1772603059.1919544
+File C:\mypython3\myenv01\Lib\site-packages\django\templatetags\static.py first seen with mtime 1772609911.4405086
+File C:\mypython3\myenv01\Lib\site-packages\django\db\migrations\exceptions.py first seen with mtime 1772609911.298384
+File C:\mypython3\myenv01\Lib\site-packages\sqlparse\filters\reindent.py first seen with mtime 1772609905.8375669
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\re\_casefix.py first seen with mtime 1772603059.48802
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\re\_parser.py first seen with mtime 1772603059.49103
+File C:\mypython3\myenv01\Lib\site-packages\django\utils\lorem_ipsum.py first seen with mtime 1772609911.4855535
+File C:\mypython3\myenv01\Lib\site-packages\django\templatetags\tz.py first seen with mtime 1772609911.441579
+File C:\mypython3\myenv01\Lib\site-packages\django\utils\datastructures.py first seen with mtime 1772609911.4715054
+File C:\mypython3\myenv01\Lib\site-packages\django\db\migrations\graph.py first seen with mtime 1772609911.3003836
+File C:\mypython3\myenv01\Lib\site-packages\django\core\management\commands\migrate.py first seen with mtime 1772609911.211932
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\email\quoprimime.py first seen with mtime 1772603059.2522225
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\ctypes\__init__.py first seen with mtime 1772603059.2301388
+File C:\mypython3\myenv01\Lib\site-packages\django\template\backends\django.py first seen with mtime 1772609911.4265058
+File C:\mypython3\myenv01\Lib\site-packages\django\core\checks\templates.py first seen with mtime 1772609911.1664011
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\base.py first seen with mtime 1772609911.3103836
+File C:\mypython3\myenv01\Lib\site-packages\django\db\migrations\operations\models.py first seen with mtime 1772609911.308384
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\statistics.py first seen with mtime 1772603059.1453817
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\fnmatch.py first seen with mtime 1772603059.0850358
+File C:\mypython3\myenv01\Lib\site-packages\django\template\autoreload.py first seen with mtime 1772609911.4155116
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\threading.py first seen with mtime 1772603059.15438
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\admin\exceptions.py first seen with mtime 1772609907.972161
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\email\contentmanager.py first seen with mtime 1772603059.2427845
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\encodings\cp950.py first seen with mtime 1772603059.298175
+File C:\mypython3\myenv01\Lib\site-packages\django\conf\locale\__init__.py first seen with mtime 1772609907.596497
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\log.py first seen with mtime 1772603059.201388
+File C:\mypython3\myenv01\Lib\site-packages\django\middleware\csrf.py first seen with mtime 1772609911.4059515
+File C:\mypython3\myenv01\Lib\site-packages\django\urls\converters.py first seen with mtime 1772609911.4546137
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\email\_parseaddr.py first seen with mtime 1772603059.2552211
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\quopri.py first seen with mtime 1772603059.1284316
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\auth\tokens.py first seen with mtime 1772609908.7690263
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\argparse.py first seen with mtime 1772603059.0586693
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\staticfiles\management\__init__.py first seen with mtime 1772609911.142312
+File C:\mypython3\myenv01\Lib\site-packages\django\db\migrations\operations\fields.py first seen with mtime 1772609911.307403
+File C:\mypython3\myenv01\Lib\site-packages\sqlparse\tokens.py first seen with mtime 1772609905.830074
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\email\charset.py first seen with mtime 1772603059.2417674
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\exceptions.py first seen with mtime 1772603059.196968
+File C:\mypython3\myenv01\Lib\site-packages\django\apps\registry.py first seen with mtime 1772609907.5894835
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\sslproto.py first seen with mtime 1772603059.2073996
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\hmac.py first seen with mtime 1772603059.0965178
+File C:\mypython3\myenv01\Lib\site-packages\django\db\backends\signals.py first seen with mtime 1772609911.2309532
+File C:\mypython3\myenv01\Lib\site-packages\django\db\migrations\autodetector.py first seen with mtime 1772609911.298384
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\typing.py first seen with mtime 1772603059.1645215
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\protocols.py first seen with mtime 1772603059.2034018
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\auth\backends.py first seen with mtime 1772609908.7575881
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\auth\migrations\0002_alter_permission_name_max_length.py first seen with mtime 1772609908.9644403
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\stringprep.py first seen with mtime 1772603059.1463797
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\auth\migrations\0006_require_contenttypes_0002.py first seen with mtime 1772609908.9664433
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\sessions\migrations\__init__.py first seen with mtime 1772609910.7957065
+File C:\mypython3\hello_django\hello_django\wsgi.py first seen with mtime 1772610048.5213006
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\auth\migrations\0005_alter_user_last_login_null.py first seen with mtime 1772609908.965443
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\contenttypes\migrations\__init__.py first seen with mtime 1772609909.2650342
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\auth\migrations\0011_update_proxy_permissions.py first seen with mtime 1772609908.9694428
+File C:\mypython3\myenv01\Lib\site-packages\django\middleware\clickjacking.py first seen with mtime 1772609911.4039474
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\sessions\migrations\0001_initial.py first seen with mtime 1772609910.7957065
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\admin\migrations\0001_initial.py first seen with mtime 1772609908.3290577
+File C:\mypython3\myenv01\Lib\site-packages\django\db\models\sql\compiler.py first seen with mtime 1772609911.3330083
+File C:\mypython3\myenv01\Lib\site-packages\django\views\csrf.py first seen with mtime 1772609911.5035503
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\contenttypes\migrations\0002_remove_content_type_name.py first seen with mtime 1772609909.2650342
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\sessions\middleware.py first seen with mtime 1772609910.5601654
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\admin\migrations\0002_logentry_remove_auto_add.py first seen with mtime 1772609908.330032
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\admin\migrations\__init__.py first seen with mtime 1772609908.3310306
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\auth\migrations\0007_alter_validators_add_error_messages.py first seen with mtime 1772609908.9664433
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\sessions\backends\base.py first seen with mtime 1772609910.566203
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\auth\migrations\0008_alter_user_username_max_length.py first seen with mtime 1772609908.9674435
+File C:\mypython3\myenv01\Lib\site-packages\django\views\defaults.py first seen with mtime 1772609911.5055714
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\auth\middleware.py first seen with mtime 1772609908.7650478
+File C:\mypython3\myenv01\Lib\site-packages\django\core\cache\backends\locmem.py first seen with mtime 1772609911.1584527
+File C:\mypython3\myenv01\Lib\site-packages\django\conf\urls\__init__.py first seen with mtime 1772609907.9671516
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\encodings\idna.py first seen with mtime 1772603059.3081849
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\auth\migrations\0012_alter_user_first_name_max_length.py first seen with mtime 1772609908.9694428
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\auth\migrations\0004_alter_user_username_opts.py first seen with mtime 1772609908.965443
+File C:\mypython3\myenv01\Lib\site-packages\django\middleware\common.py first seen with mtime 1772609911.4039474
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\auth\migrations\__init__.py first seen with mtime 1772609908.9694428
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\sessions\backends\db.py first seen with mtime 1772609910.5681996
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\admin\migrations\0003_logentry_add_action_flag_choices.py first seen with mtime 1772609908.3310306
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\auth\migrations\0003_alter_user_email_max_length.py first seen with mtime 1772609908.9644403
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\auth\migrations\0009_alter_user_last_name_max_length.py first seen with mtime 1772609908.9674435
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\sessions\exceptions.py first seen with mtime 1772609910.5591908
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\messages\middleware.py first seen with mtime 1772609910.180687
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\auth\migrations\0001_initial.py first seen with mtime 1772609908.9634442
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\auth\migrations\0010_alter_group_name_max_length.py first seen with mtime 1772609908.9684434
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\auth\views.py first seen with mtime 1772609908.7710316
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\contenttypes\migrations\0001_initial.py first seen with mtime 1772609909.2640345
+File C:\mypython3\myenv01\Lib\site-packages\django\middleware\security.py first seen with mtime 1772609911.4079573
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\sessions\backends\__init__.py first seen with mtime 1772609910.564268
+"GET / HTTP/1.1" 200 12068
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\mypython3\myenv01\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\mypython3\myenv01\Lib\site-packages\django\core\handlers\base.py", line 182, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+                                               ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\mypython3\myenv01\Lib\site-packages\django\core\handlers\base.py", line 314, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\mypython3\myenv01\Lib\site-packages\django\urls\resolvers.py", line 716, in resolve
+    raise Resolver404({"tried": tried, "path": new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin/'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\mypython3\myenv01\Lib\site-packages\django\template\base.py", line 964, in _resolve_lookup
+    raise TypeError
+TypeError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\mypython3\myenv01\Lib\site-packages\django\template\base.py", line 976, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\mypython3\myenv01\Lib\site-packages\django\template\base.py", line 982, in _resolve_lookup
+    current = current[int(bit)]
+                      ~~~^^^^^
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\mypython3\myenv01\Lib\site-packages\django\template\base.py", line 989, in _resolve_lookup
+    raise VariableDoesNotExist(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )  # missing attribute
+    ^
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2214
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\sessions\serializers.py first seen with mtime 1772609910.562229
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\messages\storage\session.py first seen with mtime 1772609910.1866965
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\messages\storage\fallback.py first seen with mtime 1772609910.1857312
+File C:\Users\32323\AppData\Local\Python\pythoncore-3.14-64\Lib\encodings\unicode_escape.py first seen with mtime 1772603059.355659
+File C:\mypython3\myenv01\Lib\site-packages\django\contrib\messages\storage\cookie.py first seen with mtime 1772609910.1857312
+"GET / HTTP/1.1" 200 12068
+"GET / HTTP/1.1" 200 12068
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\mypython3\myenv01\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\mypython3\myenv01\Lib\site-packages\django\core\handlers\base.py", line 182, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+                                               ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\mypython3\myenv01\Lib\site-packages\django\core\handlers\base.py", line 314, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\mypython3\myenv01\Lib\site-packages\django\urls\resolvers.py", line 716, in resolve
+    raise Resolver404({"tried": tried, "path": new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin/'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\mypython3\myenv01\Lib\site-packages\django\template\base.py", line 964, in _resolve_lookup
+    raise TypeError
+TypeError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\mypython3\myenv01\Lib\site-packages\django\template\base.py", line 976, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\mypython3\myenv01\Lib\site-packages\django\template\base.py", line 982, in _resolve_lookup
+    current = current[int(bit)]
+                      ~~~^^^^^
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\mypython3\myenv01\Lib\site-packages\django\template\base.py", line 989, in _resolve_lookup
+    raise VariableDoesNotExist(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )  # missing attribute
+    ^
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2214
+"GET / HTTP/1.1" 200 12068
