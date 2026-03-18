@@ -10,11 +10,4 @@ from .models import Post
 def list_post(request):
     posts = Post.objects.all().values()
     
-    return Response({
-        "data": json.dumps(
-            list(posts), 
-            sort_keys=True, 
-            indent=1, 
-            cls=DjangoJSONEncoder
-        )
-    }, status=status.HTTP_200_OK)
+    return Response(list(posts), status=status.HTTP_200_OK)
