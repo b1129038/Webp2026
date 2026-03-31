@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>資工選課表</title>
+    <style>
+        table {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        td, th {
+            border: 1px solid #ddd;
+            padding: 6px;
+        }
+        tr:nth-child(even){background-color: #f2f2f2;}
+        tr:hover {background-color: #ddd;}
+        th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+        .course-link {
+            color: #0066cc;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        .course-link:hover {
+            color: #004499;
+        }
+        .popover-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+            justify-content: center;
+            align-items: center;
+        }
+        .popover-overlay.active {
+            display: flex;
+        }
+        .popover-box {
+            background: white;
+            width: 750px;
+            height: 600px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        .popover-box iframe {
+            display: block;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <h2>資工選課表</h2>
+    <table id="csie">
+        <tr>
+            <th>開課單位</th>
+            <th>課程名稱</th>
+            <th>授課教師</th>
+        </tr>
+        <tr>
+            <td>資工系</td>
+            <td><span class="course-link" onclick="openCourse('A2337')">物件導向軟體設計</span></td>
+            <td>李春良</td>
+        </tr>
+        <tr>
+            <td>資工系</td>
+            <td><span class="course-link" onclick="openCourse('61602')">計算機網路實驗</span></td>
+            <td>李春良</td>
+        </tr>
+        <tr>
+            <td>資工系</td>
+            <td><span class="course-link" onclick="openCourse('61603')">作業系統實務</span></td>
+            <td>張哲維</td>
+        </tr>
+        <tr>
+            <td>資工系</td>
+            <td><span class="course-link" onclick="openCourse('58707')">生物統計</span></td>
+            <td>陳光武</td>
+        </tr>
+        <tr>
+            <td>資工系</td>
+            <td><span class="course-link" onclick="openCourse('61604')">通訊系統</span></td>
+            <td>陳仁暉</td>
+        </tr>
+        <tr>
+            <td>資工系</td>
+            <td><span class="course-link" onclick="openCourse('56665')">軟硬體專題(2)</span></td>
+            <td>魏志達</td>
+        </tr>
+    </table>
+    <button onclick="changeResult()">Change</button>
+
+    <div class="popover-overlay" id="popoverOverlay" onclick="closePopover(event)">
+        <div class="popover-box">
+            <iframe id="popoverIframe" src=""></iframe>
+        </div>
+    </div>
+
+    <script>
+        function changeResult() {
+            var myTable = document.getElementById("csie");
+            myTable.rows[1].cells[2].innerHTML = "李春良";
+        }
+
+        function openCourse(sectionId) {
+            if (sectionId) {
+                var url = "https://catalog.cgu.edu.tw/coursedata?sectionid=" + sectionId;
+                document.getElementById("popoverIframe").src = url;
+                document.getElementById("popoverOverlay").classList.add("active");
+            }
+        }
+
+        function closePopover(event) {
+            if (!event || event.target === document.getElementById("popoverOverlay")) {
+                document.getElementById("popoverOverlay").classList.remove("active");
+                document.getElementById("popoverIframe").src = "";
+            }
+        }
+    </script>
+</body>
+</html>
