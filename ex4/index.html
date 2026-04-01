@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Ex4</title>
+</head>
+<body>
+  <h1>Christmas Tree - Check the Console (F12)</h1>
+  <script>
+    function repeatchar(n, arg_char) {
+      let result = '';
+      for (let i = 0; i < n; i++) {
+        result += arg_char;
+      }
+      return result;
+    }
+
+    function printTreeTop(n) {
+      for (let i = 0; i < n; i++) {
+        let spaces = repeatchar(n - 1 - i, ' ');
+        let stars = repeatchar(2 * i + 1, '*');
+        console.log(spaces + stars);
+      }
+    }
+
+    function printTreeBottom(n) {
+      let spaces = repeatchar(n - 1, ' ');
+      for (let i = 0; i < n - 1; i++) {
+        console.log(spaces + '*');
+      }
+    }
+
+    function tree(n) {
+      printTreeTop(n);
+      printTreeBottom(n);
+    }
+
+    tree(4);
+  </script>
+</body>
+</html>
