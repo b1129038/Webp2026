@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>按鈕生成和刪除</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+          rel="stylesheet" 
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+          crossorigin="anonymous">
+</head>
+<body class="container mt-5">
+    <div class="card shadow-sm p-4">
+        <h2 class="mb-3">Button Manager</h2>
+        <p class="text-muted">點擊按鈕來實作程式邏輯：</p>
+        
+        <div class="mb-4">
+            <button id="add-it" onclick="addfunction()" class="btn btn-outline-primary me-2">Add it</button>
+            <button id="del-it" onclick="delfunction()" class="btn btn-outline-primary">Del it</button>
+        </div>
+
+        <div id="button-area" class="d-flex flex-wrap gap-2"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
